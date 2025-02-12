@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Uni Scraper 5000</title>
+  <style>
+    body { font-family: Arial, sans-serif; width: 300px; padding-bottom: 10rem; }
+    table { width: 100%; border-collapse: collapse; }
+    td, th { border: 1px solid black; padding: 5px; text-align: left; }
+    .controls { display: flex; justify-content: space-between; margin-top: 10px; }
+  </style>
+</head>
+<body>
+  <h2>Uni Scraper 5000</h2>
+  <table id="materialsTable">
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Code</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+  <div class="controls">
+    <button id="exportJson">Export JSON</button>
+    <button id="importJson">Import JSON</button>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
